@@ -1,0 +1,15 @@
+{
+  "name": "Youtube search by right click",
+  "description": "Поиск выделенного текста в Youtube",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "contextMenus"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
